@@ -30,7 +30,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_TERM 220
 
 // Tap mod keys once to toggle them, or hold to disable layer upon release.
-#define TAPPING_TOGGLE 1
+#define TAPPING_TOGGLE 2
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
