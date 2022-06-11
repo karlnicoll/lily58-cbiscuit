@@ -40,25 +40,25 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
 /* SYMBOLS/F-KEYS
- * ,------------------------------------------.                    ,-----------------------------------.
- * | ESC   |  F1  |  F2  |  F3  |  F4  |  F5  |                    |  !  |  ?  |  +  |  -  |  (  |  )  |
- * |-------+------+------+------+------+------|                    |-----+-----+-----+-----+-----+-----|
- * |CAPSLCK|  F6  |  F7  |  F8  |  F9  | F10  |                    |  \  |  |  |  /  |  =  |  [  |  ]  |
- * |-------+------+------+------+------+------|                    |-----+-----+-----+-----+-----+-----|
- * |LCTRL  | F11  | F12  | F13  | F14  | F15  |-------.    ,-------|  $  |  %  |  *  |  _  |  {  |  }  |
- * |-------+------+------+------+------+------|       |    |       |-----+-----+-----+-----+-----+-----|
- * |LSHIFT | F16  | F17  | F18  | F19  | F20  |-------|    |-------|  &  |  ~  |  @  |  #  |  <  |  >  |
- * `------------------------------------------/       /    \       \-----------------------------------'
- *                   | LGUI | LALT |SYMBOLS| / Space /      \ Enter \  |NAV | RALT | DEL |
- *                   |      | ([)  |       |/       /        \       \ |    | (])  |     |
- *                   `-----------------------------'          '-------''-----------------'
+ * ,-------------------------------------.                    ,-----------------------------------.
+ * | ESC   |  F1 |  F2 |  F3 |  F4 |  F5 |                    | F6  | F7  | F8  | F9  | F10 |     |
+ * |-------+-----+-----+-----+-----+-----|                    |-----+-----+-----+-----+-----+-----|
+ * |CAPSLCK| F11 | F12 | F13 | F14 | F15 |                    | F16 | F17 | F18 | F19 | F20 |     |
+ * |-------+-----+-----+-----+-----+-----|                    |-----+-----+-----+-----+-----+-----|
+ * |LCTRL  |  !  |  @  |  #  |  $  |  %  |-------.    ,-------|  ^  |  &  |  *  |  -  |  +  |     |
+ * |-------+-----+-----+-----+-----+-----|   <   |    |   >   |-----+-----+-----+-----+-----+-----|
+ * |LSHIFT |     |     |  `  |  ~  |     |-------|    |-------|     |  \  |  |  |  /  |     |     |
+ * `-------------------------------------/       /    \       \-----------------------------------'
+ *              | LGUI | LALT |SYMBOLS| / Space /      \ Enter \  |NAV | RALT | DEL |
+ *              |      | ([)  |       |/       /        \       \ |    | (])  |     |
+ *              `-----------------------------'          '-------''-----------------'
  */
 
   [_SYMBOLS] = LAYOUT(
-    KC_ESC,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                      KC_EXLM,   KC_QUES,   KC_PLUS,   KC_PMNS,   KC_LPRN,   KC_RPRN,
-    KC_CAPS,  KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,                     UK_BSLS,   UK_PIPE,   KC_PSLS,   KC_PEQL,   KC_LBRC,   KC_RBRC,
-    KC_LCTL,  KC_F11,  KC_F12,  KC_F13,  KC_F14,  KC_F15,                     KC_DLR,    KC_PERC,   KC_ASTR,   KC_UNDS,   KC_LCBR,   KC_RCBR,
-    KC_LSFT,  KC_F16,  KC_F17,  KC_F18,  KC_F19,  KC_F20,   KC_NO,   KC_NO,   KC_AMPR,   UK_TILD,   UK_AT,     UK_HASH,     KC_LT,     KC_GT,
+    KC_ESC,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                      KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,   KC_NO,
+    KC_CAPS,  KC_F11,  KC_F12,  KC_F13,  KC_F14,  KC_F15,                     KC_F16,  KC_F17,  KC_F18,  KC_F19,  KC_F20,   KC_NO,
+    KC_LCTL,  KC_EXLM, UK_AT,   UK_HASH, KC_DLR,  KC_PERC,                    KC_CIRC, KC_AMPR, KC_ASTR, KC_MINS, KC_PLUS,  KC_NO,
+    KC_LSFT,  KC_NO,   KC_NO,   KC_GRV,  UK_TILD, KC_NO,   KC_LT,   KC_GT,    KC_NO,   UK_BSLS, UK_PIPE, KC_SLSH, KC_NO,    KC_NO,
                           KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS, KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_DEL
   ),
 
