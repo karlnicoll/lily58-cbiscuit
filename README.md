@@ -34,7 +34,7 @@ layer switching:
 
 ### Up to 20 F-Keys
 
-F1 to F12 are so standard. The symbol layer allows up to (F20)... if your
+F1 to F12 are so standard. The symbol layer allows up to F20... if your
 operating system supports them.
 
 ### Vim-style Navigation Layer
@@ -56,7 +56,7 @@ has a lot of empty spaces for you to define your own [QMK macros](https://github
 
 ### Tap Or Hold Layer Keys
 
-Hold layer keys to use keys on that layer briefly, or tap them once to stay on
+Hold layer keys to use keys on that layer briefly, or tap them twice to stay on
 that layer until you want to switch back.
 
 ## Full Keymaps
