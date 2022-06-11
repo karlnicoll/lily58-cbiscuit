@@ -93,7 +93,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|                    |------+------+------+  +   +------+------|
  * |      |      |      |      |      |      |-------.    ,-------|  1   |  2   |  3   |      |  =   | MUTE |
  * |------+------+------+------+------+------|KB_RST |    |       |------+------+------+------+------+------|
- * | PLAY | STOP | RWND | FFWD |      |      |-------|    |-------|      0      |  .   |ENTER |      |      |
+ * | PLAY | PREV | NEXT |      |      |      |-------|    |-------|      0      |  .   |ENTER |      |      |
  * `-----------------------------------------/       /    \       \-----------------------------------------'
  *                  | LGUI | LALT |SYMBOLS| / Space /      \ Enter \  |NAV | RALT | BKSPC |
  *                  |      | ([)  |       |/       /        \       \ |    | (])  |       |
@@ -103,7 +103,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_PWR,   KC_SLEP,   KC_WAKE,   KC_NO,   KC_NO,   KC_NO,                    KC_P7,   KC_P8,   KC_P9,   KC_PMNS,   KC_PAST,   KC_VOLU,
     KC_NO,    KC_NO,     KC_NO,     KC_NO,   KC_NO,   KC_NO,                    KC_P4,   KC_P5,   KC_P6,   KC_PPLS,   KC_PSLS,   KC_VOLD,
     KC_NO,    KC_NO,     KC_NO,     KC_NO,   KC_NO,   KC_NO,                    KC_P1,   KC_P2,   KC_P3,   KC_PPLS,   KC_EQL,    KC_MUTE,
-    KC_MPLY,  KC_MSTP,   KC_MRWD,   KC_MFFD, KC_NO,   KC_NO,  RESET,    KC_NO,  KC_P0,   KC_P0,   KC_PDOT, KC_PENT,   KC_NO,     KC_NO,
+    KC_MPLY,  KC_MPRV,   KC_MNXT,   KC_NO,   KC_NO,   KC_NO,  RESET,    KC_NO,  KC_P0,   KC_P0,   KC_PDOT, KC_PENT,   KC_NO,     KC_NO,
                             KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,  KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS
   )
 };
