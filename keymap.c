@@ -160,17 +160,17 @@ const char *read_layer_state(void) {
   switch (layer_state)
   {
   case LILY58_CBISCUIT_BASE_LAYER_BIT:
-    snprintf(layer_state_str, sizeof(layer_state_str), "Layer: Default");
+    snprintf(layer_state_str, sizeof(layer_state_str), "Layer: ---");
     break;
   case LILY58_CBISCUIT_SYMBOL_LAYER_BIT:
-    snprintf(layer_state_str, sizeof(layer_state_str), "Layer: Symbols");
+    snprintf(layer_state_str, sizeof(layer_state_str), "Layer: SYMBOLS");
     break;
   case LILY58_CBISCUIT_NAVIGATION_LAYER_BIT:
-    snprintf(layer_state_str, sizeof(layer_state_str), "Layer: Nav");
+    snprintf(layer_state_str, sizeof(layer_state_str), "Layer: NAVIGATION");
     break;
   case LILY58_CBISCUIT_MACRO_LAYER_BIT:
   case LILY58_CBISCUIT_TRI_LAYER_STATE_BITS:
-    snprintf(layer_state_str, sizeof(layer_state_str), "Layer: Macros");
+    snprintf(layer_state_str, sizeof(layer_state_str), "Layer: MACROS");
     break;
   default:
     snprintf(layer_state_str, sizeof(layer_state_str), "Layer: Undef-%ld", layer_state);
