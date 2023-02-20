@@ -21,7 +21,6 @@ To provide easy access to commonly used symbols, the keymap uses QMK's
 |`RIGHT_SHIFT`  | `)`             |
 |`LEFT_ALT`     | `[`             |
 |`RIGHT_ALT`    | `]`             |
-|`LEFT_CTRL`    | `-`             |
 
 This should allow for devs to write a lot of code without having to hit SHIFT or
 switch to a symbols layer to perform common code symbols.
@@ -29,7 +28,6 @@ switch to a symbols layer to perform common code symbols.
 Furthermore a few extra tweaks have been made to the default layer to minimize
 layer switching:
 
-* Dedicated underscore (`_`) key.
 * Dedicated curly bracket (`{` and `}`) keys.
 
 ### Up to 20 F-Keys
